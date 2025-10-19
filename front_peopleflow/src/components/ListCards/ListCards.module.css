@@ -1,0 +1,17 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.contentListCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-top: 1px dashed lightgray;
+    width: 90%;
+    height: 100vh;
+    margin: 1vh auto;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: end;
+    margin: 1vh 10vh;
+}

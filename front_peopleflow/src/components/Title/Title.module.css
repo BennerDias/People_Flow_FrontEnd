@@ -1,0 +1,6 @@
+.textContainer{
+    background-color: var(--backgroundTheme);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

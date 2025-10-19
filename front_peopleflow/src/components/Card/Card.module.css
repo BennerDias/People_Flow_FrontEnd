@@ -1,0 +1,35 @@
+.card {
+  border: 1px solid rgb(170, 168, 168);
+  width: 25vh;
+  height: 45vh;
+  border-radius: 20px;
+  display: flex;
+  margin: 2rem;
+  flex-direction: column;
+  background-color: var(--titleTheme);
+}
+.card img {
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons {
+  align-items: center;
+  justify-content: center;
+  margin: 3vh auto;
+  gap: 10;
+  display: flex;
+  font-weight: bold;
+}
